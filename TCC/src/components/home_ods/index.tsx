@@ -26,6 +26,7 @@ const HomeODS = () => {
             </Link>
             </TouchableOpacity>
         <View style={styles.container_projects} >
+    <Link href={'/(stack)/pages/ODS'}>
         <TouchableOpacity>
             <View style={[styles.box_projects, {backgroundColor: '#F7C212'}]}>
             <Image source={ods7} style={[styles.image,{height:140}]}/>
@@ -36,6 +37,8 @@ const HomeODS = () => {
                 </Text>
             </View>
         </TouchableOpacity>
+    </Link>
+    <Link href={'/(stack)/pages/ODS'}>
         <TouchableOpacity>
             <View style={[styles.box_projects,{backgroundColor: '#C41F2D'}]}>
             <Image source={ods4} style={styles.image}/>
@@ -46,6 +49,8 @@ const HomeODS = () => {
                 </Text>
             </View>
         </TouchableOpacity>
+    </Link>
+    <Link href={'/(stack)/pages/ODS'}>
         <TouchableOpacity>
             <View style={[styles.box_projects,{backgroundColor: '#5BB846'}]}>
             <Image source={ods15} style={[styles.image,{height:140}]}/>
@@ -56,6 +61,7 @@ const HomeODS = () => {
                 </Text>
             </View>
         </TouchableOpacity>
+    </Link>
         </View>
         </View>
     )}

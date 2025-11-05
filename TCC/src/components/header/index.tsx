@@ -8,6 +8,7 @@ import { Link } from "expo-router"
 //erro inexistente do typescript
 import IFPR_logo from "../../../assets/images/IFPR_logo.png"
 import LoginContent from "../login_content"
+import { transform } from "@babel/core"
 const Header = () => {
     const { width } = useWindowDimensions();
     const styles = getStyles(width);
@@ -16,6 +17,7 @@ const Header = () => {
     const rotaAtual = route.name;
 
     const [isModalVisible, setIsModalVisible] = useState(false);
+
     return (
         <View style={styles.container}>
         <View style={styles.green_status_bar}/>
